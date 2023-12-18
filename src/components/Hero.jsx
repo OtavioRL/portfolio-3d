@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { CyberApCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop fullstack web applications and user interfaces</p>
         </div>
       </div>
-      <ComputersCanvas />
+      <CyberApCanvas />
     </section>
   )
 }
