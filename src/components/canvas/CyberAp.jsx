@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+import PropTypes from "prop-types"
 import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
@@ -25,19 +26,23 @@ const CyberAp = ({ isMobile }) => {
       /> */}
       <primitive 
         object={cyberAp.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={[0, -3, -0.3]}
+        scale={isMobile ? 0.35 : 0.75}
+        position={isMobile ? [0, -2, -0.3] : [0, -3, -0.3]}
         rotation={[0.01, -4, 0.01]}
       />
     </mesh>
   )
 }
 
+CyberAp.propTypes = {
+  isMobile: PropTypes.bool
+}
+
 const CyberApCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia('(max-width: 870px)');
 
     setIsMobile(mediaQuery.matches);
 
