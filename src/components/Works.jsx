@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
@@ -47,6 +48,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_Link }
       </Tilt>
     </motion.div>
   );
+}
+
+ProjectCard.propTypes = {
+  description: PropTypes.string,
+  image: PropTypes.any,
+  index: PropTypes.number,
+  name: PropTypes.string,
+  source_code_Link: PropTypes.string,
+  tags: PropTypes.shape({
+    map: PropTypes.func
+  })
 }
 
 const Works = () => {
