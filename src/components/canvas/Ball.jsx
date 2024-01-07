@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+import PropTypes from "prop-types"
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Decal, Float, OrbitControls, Preload, useTexture} from '@react-three/drei';
@@ -29,6 +31,10 @@ const Ball = ({ imgUrl }) => {
   )
 }
 
+Ball.propTypes = {
+  imgUrl: PropTypes.string
+}
+
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -44,6 +50,10 @@ const BallCanvas = ({ icon }) => {
       <Preload aLL/>
     </Canvas>
   );
+}
+
+BallCanvas.propTypes = {
+  icon: PropTypes.any
 }
 
 export default BallCanvas

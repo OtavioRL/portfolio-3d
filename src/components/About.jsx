@@ -44,7 +44,7 @@ const About = () => {
         Hi, my name is Otavio and I'm a Brazilian fullstack web   developer. I always loved computers and technology, so I  decided to pursue a web developer career and I love what I   do. I had the opportunity to study at Trybe and it has been   a long year, I learned a lot in such a short amount of time.  I'm looking for a remote job in any English-speaking country.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
