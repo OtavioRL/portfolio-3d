@@ -15,14 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
   trybe,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
