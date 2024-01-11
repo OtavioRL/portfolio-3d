@@ -138,27 +138,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I had the pleasure of working with Otavio on a full-stack project and was impressed by his skill and knowledge in front-end, especially in React, dealing with state management, events, and components. Furthermore, he is a good-humored and relaxed person, and his willingness to help is another strong point, always seeking solutions and contributing positively to the team. I recommend Otavio to any company looking for a quality front-end developer who can also contribute to a light and productive work environment.",
+    name: "Marcelo Marques",
+    image: "https://media.licdn.com/dms/image/C4D03AQH32E-4L5F-Sw/profile-displayphoto-shrink_200_200/0/1641189198809?e=1710374400&v=beta&t=sxQV1DgLKADO7uq_w1Bqj8IzAZmHna-aLsjRrwmrJo0",
+    linkedIn: "https://www.linkedin.com/in/marcelo-mls/"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I recommend Otavio without hesitation to any team looking for a dedicated and collaborative full-stack developer. We worked together on a project where he stood out for his teamwork skills and willingness to help whenever needed. Furthermore, Otavio is fun and friendly, making the work environment much more enjoyable. With Otavio on your team, I am confident that you will have a committed and valuable developer for your company.",
+    name: "Caio Oliveira de Andrade",
+    image: "https://media.licdn.com/dms/image/D4D35AQG4ZK_asaO-Ug/profile-framedphoto-shrink_200_200/0/1684811736433?e=1705600800&v=beta&t=EHVY-O3Z431ldOga5gnbGlJl18pvlw-GPLFoHHHVYOw",
+    linkedIn: "https://www.linkedin.com/in/caio-oliveira-de-andrade/"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "One of the best team partners I've ever had! Simply amazing working with Otavio! Very attentive and understanding, he was crucial for us to deliver our project masterfully!",
+    name: "Gabriel Tenari",
+    image: "https://media.licdn.com/dms/image/D4D35AQGdcel0pNDzVg/profile-framedphoto-shrink_200_200/0/1681237081300?e=1705600800&v=beta&t=o3DkvWwnw2S0NWWTE8JkjqXOLf5FjpesahuaogipZBE",
+    linkedIn: "https://www.linkedin.com/in/ggtenari/"
   },
 ];
 
