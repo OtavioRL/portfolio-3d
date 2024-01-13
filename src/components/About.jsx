@@ -6,7 +6,7 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
-import { services } from "../constants"
+import { services } from "../constants/en"
 
 const ServiceCard = ({index, title, icon}) => {
   return (

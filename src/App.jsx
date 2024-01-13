@@ -1,7 +1,15 @@
+import { useContext } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Feedbacks } from "./components";
+import Context from "./context/context.js";
+
 
 function App() {
+  const { setLanguage } = useContext(Context);
+
+  if(navigator.language === 'pt-BR') {
+    setLanguage('pt-br');
+  }
 
   return (
     <BrowserRouter>
