@@ -4,10 +4,13 @@ import Context from './context';
 
 function AppProvider({ children }) {
   const [language, setLanguage] = useState('en');
+  const [constants, setConstants] = useState({});
 
   const state = {
     language,
-    setLanguage
+    setLanguage,
+    constants,
+    setConstants
   }
 
   return (

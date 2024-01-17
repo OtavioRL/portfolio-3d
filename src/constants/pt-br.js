@@ -22,41 +22,41 @@ import {
   tripguide,
 } from "../assets";
 
-export const navLinks = [
+const navLinksPt = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiência",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
-const services = [
+const servicesPt = [
   {
-    title: "Front-end Developer",
+    title: "Desenvolvedor Front-end",
     icon: web,
   },
   {
-    title: "Back-end Developer",
+    title: "Desenvolvedor Back-end",
     icon: creator,
   },
   {
-    title: "UX/UI Designer",
+    title: "Designer UX/UI",
     icon: mobile,
   },
   {
-    title: "Mobile Developer",
+    title: "Desenvolvedor Mobile",
     icon: backend,
   },
 ];
 
-const technologies = [
+const technologiesPt = [
   {
     name: "HTML 5",
     icon: html,
@@ -107,59 +107,59 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const experiencesPt = [
   {
-    title: "Fullstack Web Developer Course",
+    title: "Curso de Desenvolvedor Web Fullstack",
     company_name: "Trybe",
     icon: trybe,
     iconBg: "#E6DEDD",
-    date: "Feb 2022 - July 2023",
+    date: "Fevereiro 2022 - Julho 2023",
     points: [
-      "Over 12 months and approximately 1500 hours of study and practice",
-      "Big projects where I had to collaborate with my team using GitHub and agile methodologies like Scrum and Kanban.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Technologies like React, Redux, Node.js with Express.js, Docker, TypeScript, SQL, and NoSQL were all used in projects along the course.",
+      "Mais de 12 meses e aproximadamente 1500 horas de estudo e prática",
+      "Grandes projetos nos quais colaborei com meu time usando GitHub e metodologias ágeis como Scrum e Kanban.",
+      "Participação em code review fornecendo feedback construtivo para outros desenvolvedores.",
+      "Tecnologias como React, Redux, Node.js com Express.js, Docker, TypeScript, SQL e NoSQL foram todas utilizadas em projetos ao longo do curso.",
     ],
   },
   {
-    title: "Freelancer Work",
-    company_name: "Autonomous",
+    title: "Trabalho como Freelancer",
+    company_name: "Autônomo",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Today",
+    date: "Julho 2023 - Hoje",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "This work significantly enhanced my expertise in React and Next.js, as it involved creating applications from scratch – ranging from design development to coding and deployment.",
+      "Desenvolvimento e manutenção de aplicações web usando React.js e outras tecnologias relacionadas.",
+      "Implementação de design responsivo garantindo compatibilidade entre diferentes navegadores.",
+      "Trabalhar como freelancer aprimorou significativamente minha expertise em React e Next.js, pois envolveu a criação de aplicações do zero – desde o desenvolvimento do design até a implementação e o deployment.",
     ],
   },
 ];
 
-const testimonials = [
+const testimonialsPt = [
   {
     testimonial:
-      "I had the pleasure of working with Otavio on a full-stack project and was impressed by his skill and knowledge in front-end, especially in React, dealing with state management, events, and components. Furthermore, he is a good-humored and relaxed person, and his willingness to help is another strong point, always seeking solutions and contributing positively to the team. I recommend Otavio to any company looking for a quality front-end developer who can also contribute to a light and productive work environment.",
+      "Tive o prazer de trabalhar com Otavio em um projeto full stack e fiquei impressionado com sua habilidade e conhecimento em front-end, em especial em React, lidando com gerenciamento de estado, eventos e componentes. Além disso, é uma pessoa bem-humorada e descontraída e sua disposição em ajudar é outro ponto forte, sempre buscando soluções e contribuindo positivamente para o time. Recomendo Otavio para qualquer empresa que busque um desenvolvedor front-end de qualidade e que também possa contribuir para um ambiente de trabalho leve e produtivo.",
     name: "Marcelo Marques",
     image: "https://media.licdn.com/dms/image/C4D03AQH32E-4L5F-Sw/profile-displayphoto-shrink_200_200/0/1641189198809?e=1710374400&v=beta&t=sxQV1DgLKADO7uq_w1Bqj8IzAZmHna-aLsjRrwmrJo0",
     linkedIn: "https://www.linkedin.com/in/marcelo-mls/"
   },
   {
     testimonial:
-      "I recommend Otavio without hesitation to any team looking for a dedicated and collaborative full-stack developer. We worked together on a project where he stood out for his teamwork skills and willingness to help whenever needed. Furthermore, Otavio is fun and friendly, making the work environment much more enjoyable. With Otavio on your team, I am confident that you will have a committed and valuable developer for your company.",
+      "Eu recomendo sem hesitação Otavio para qualquer equipe que busca um desenvolvedor full-stack dedicado e colaborativo. Trabalhamos juntos em um projeto e ele se destacou por sua habilidade em trabalhar em equipe e sua vontade de ajudar sempre que necessário. Além disso, Otavio é divertido e amigável, o que tornou o ambiente de trabalho muito mais agradável. Com Otavio em sua equipe, tenho certeza de que vocês terão um desenvolvedor comprometido e valioso para sua empresa.",
     name: "Caio Oliveira de Andrade",
     image: "https://media.licdn.com/dms/image/D4D35AQG4ZK_asaO-Ug/profile-framedphoto-shrink_200_200/0/1684811736433?e=1705600800&v=beta&t=EHVY-O3Z431ldOga5gnbGlJl18pvlw-GPLFoHHHVYOw",
     linkedIn: "https://www.linkedin.com/in/caio-oliveira-de-andrade/"
   },
   {
     testimonial:
-      "One of the best team partners I've ever had! Simply amazing working with Otavio! Very attentive and understanding, he was crucial for us to deliver our project masterfully!",
+      "Um dos melhores parceiros de equipe que já tive! Simplesmente incrivel trabalhar com o Otavio! Muito atencioso e compreensivo, foi fundamental para que conseguissemos entregar nosso projeto com maestria!",
     name: "Gabriel Tenari",
     image: "https://media.licdn.com/dms/image/D4D35AQGdcel0pNDzVg/profile-framedphoto-shrink_200_200/0/1681237081300?e=1705600800&v=beta&t=o3DkvWwnw2S0NWWTE8JkjqXOLf5FjpesahuaogipZBE",
     linkedIn: "https://www.linkedin.com/in/ggtenari/"
   },
 ];
 
-const projects = [
+const projectsPt = [
   {
     name: "Car Rent",
     description:
@@ -225,4 +225,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { navLinksPt, servicesPt, technologiesPt, experiencesPt, testimonialsPt, projectsPt };

@@ -1,3 +1,5 @@
+import { useContext } from "react"
+import Context from "../context/context"
 import PropTypes from "prop-types"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
@@ -62,19 +64,21 @@ ProjectCard.propTypes = {
 }
 
 const Works = () => {
+  const { language } = useContext(Context);
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={styles.sectionSubText}>{language === 'pt-br' ? "Meu trabalho" : "My work"}</p>
+        <h2 className={styles.sectionHeadText}>{language === 'pt-br' ? "Projetos." : "Projects."}</h2>
       </motion.div>
 
       <div className="w-full flex flex-col">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-           My projects showcase my skills and experience through real examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems and work with different technologies.
+        > 
+          {language === 'pt-br' ? "Meus projetos demonstram minhas habilidades e experiência por meio de exemplos reais do meu trabalho. Cada projeto é brevemente descrito, com links para os repositórios no github e o site funcionando. Isso reflete minha capacidade de resolver problemas complexos e trabalhar com diferentes tecnologias.": "My projects showcase my skills and experience through real examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems and work with different technologies."}
+           
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-7">
