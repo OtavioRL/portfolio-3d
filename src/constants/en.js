@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   trybe,
-  tesla,
+  logo,
   carrent,
   jobit,
   tripguide,
@@ -124,7 +124,7 @@ const experiences = [
   {
     title: "Freelancer Work",
     company_name: "Autonomous",
-    icon: tesla,
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "July 2023 - Today",
     points: [

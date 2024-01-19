@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   trybe,
-  tesla,
+  logo,
   carrent,
   jobit,
   tripguide,
@@ -124,8 +124,8 @@ const experiencesPt = [
   {
     title: "Trabalho como Freelancer",
     company_name: "Autônomo",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: logo,
+    iconBg: "#FFF",
     date: "Julho 2023 - Hoje",
     points: [
       "Desenvolvimento e manutenção de aplicações web usando React.js e outras tecnologias relacionadas.",
