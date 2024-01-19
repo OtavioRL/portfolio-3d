@@ -20,6 +20,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  tenari,
+  caio,
+  marcelo
 } from "../assets";
 
 export const navLinks = [
@@ -140,21 +143,21 @@ const testimonials = [
     testimonial:
       "I had the pleasure of working with Otavio on a full-stack project and was impressed by his skill and knowledge in front-end, especially in React, dealing with state management, events, and components. Furthermore, he is a good-humored and relaxed person, and his willingness to help is another strong point, always seeking solutions and contributing positively to the team. I recommend Otavio to any company looking for a quality front-end developer who can also contribute to a light and productive work environment.",
     name: "Marcelo Marques",
-    image: "https://media.licdn.com/dms/image/C4D03AQH32E-4L5F-Sw/profile-displayphoto-shrink_200_200/0/1641189198809?e=1710374400&v=beta&t=sxQV1DgLKADO7uq_w1Bqj8IzAZmHna-aLsjRrwmrJo0",
+    image: marcelo,
     linkedIn: "https://www.linkedin.com/in/marcelo-mls/"
   },
   {
     testimonial:
       "I recommend Otavio without hesitation to any team looking for a dedicated and collaborative full-stack developer. We worked together on a project where he stood out for his teamwork skills and willingness to help whenever needed. Furthermore, Otavio is fun and friendly, making the work environment much more enjoyable. With Otavio on your team, I am confident that you will have a committed and valuable developer for your company.",
     name: "Caio Oliveira de Andrade",
-    image: "https://media.licdn.com/dms/image/D4D35AQG4ZK_asaO-Ug/profile-framedphoto-shrink_200_200/0/1684811736433?e=1705600800&v=beta&t=EHVY-O3Z431ldOga5gnbGlJl18pvlw-GPLFoHHHVYOw",
+    image: caio,
     linkedIn: "https://www.linkedin.com/in/caio-oliveira-de-andrade/"
   },
   {
     testimonial:
       "One of the best team partners I've ever had! Simply amazing working with Otavio! Very attentive and understanding, he was crucial for us to deliver our project masterfully!",
     name: "Gabriel Tenari",
-    image: "https://media.licdn.com/dms/image/D4D35AQGdcel0pNDzVg/profile-framedphoto-shrink_200_200/0/1681237081300?e=1705600800&v=beta&t=o3DkvWwnw2S0NWWTE8JkjqXOLf5FjpesahuaogipZBE",
+    image: tenari,
     linkedIn: "https://www.linkedin.com/in/ggtenari/"
   },
 ];

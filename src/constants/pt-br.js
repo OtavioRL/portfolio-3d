@@ -20,6 +20,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  tenari,
+  marcelo,
+  caio
 } from "../assets";
 
 const navLinksPt = [
@@ -140,21 +143,21 @@ const testimonialsPt = [
     testimonial:
       "Tive o prazer de trabalhar com Otavio em um projeto full stack e fiquei impressionado com sua habilidade e conhecimento em front-end, em especial em React, lidando com gerenciamento de estado, eventos e componentes. Além disso, é uma pessoa bem-humorada e descontraída e sua disposição em ajudar é outro ponto forte, sempre buscando soluções e contribuindo positivamente para o time. Recomendo Otavio para qualquer empresa que busque um desenvolvedor front-end de qualidade e que também possa contribuir para um ambiente de trabalho leve e produtivo.",
     name: "Marcelo Marques",
-    image: "https://media.licdn.com/dms/image/C4D03AQH32E-4L5F-Sw/profile-displayphoto-shrink_200_200/0/1641189198809?e=1710374400&v=beta&t=sxQV1DgLKADO7uq_w1Bqj8IzAZmHna-aLsjRrwmrJo0",
+    image: marcelo,
     linkedIn: "https://www.linkedin.com/in/marcelo-mls/"
   },
   {
     testimonial:
       "Eu recomendo sem hesitação Otavio para qualquer equipe que busca um desenvolvedor full-stack dedicado e colaborativo. Trabalhamos juntos em um projeto e ele se destacou por sua habilidade em trabalhar em equipe e sua vontade de ajudar sempre que necessário. Além disso, Otavio é divertido e amigável, o que tornou o ambiente de trabalho muito mais agradável. Com Otavio em sua equipe, tenho certeza de que vocês terão um desenvolvedor comprometido e valioso para sua empresa.",
     name: "Caio Oliveira de Andrade",
-    image: "https://media.licdn.com/dms/image/D4D35AQG4ZK_asaO-Ug/profile-framedphoto-shrink_200_200/0/1684811736433?e=1705600800&v=beta&t=EHVY-O3Z431ldOga5gnbGlJl18pvlw-GPLFoHHHVYOw",
+    image: caio,
     linkedIn: "https://www.linkedin.com/in/caio-oliveira-de-andrade/"
   },
   {
     testimonial:
       "Um dos melhores parceiros de equipe que já tive! Simplesmente incrivel trabalhar com o Otavio! Muito atencioso e compreensivo, foi fundamental para que conseguissemos entregar nosso projeto com maestria!",
     name: "Gabriel Tenari",
-    image: "https://media.licdn.com/dms/image/D4D35AQGdcel0pNDzVg/profile-framedphoto-shrink_200_200/0/1681237081300?e=1705600800&v=beta&t=o3DkvWwnw2S0NWWTE8JkjqXOLf5FjpesahuaogipZBE",
+    image: tenari,
     linkedIn: "https://www.linkedin.com/in/ggtenari/"
   },
 ];
